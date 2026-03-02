@@ -1,5 +1,11 @@
 # 🛒 Shopping List Management App
 
+📸 Screenshots
+<img width="1920" height="926" alt="Screenshot (124)" src="https://github.com/user-attachments/assets/220c95d7-1a5b-406a-82e8-8ec27b929201" />
+<img width="1920" height="926" alt="Screenshot (124)" src="https://github.com/user-attachments/assets/220c95d7-1a5b-406a-82e8-8ec27b929201" />
+<img width="1920" height="934" alt="Screenshot (125)" src="https://github.com/user-attachments/assets/25fe7443-1955-4713-bb71-327711f1d4d3" />
+<img width="1920" height="934" alt="Screenshot (125)" src="https://github.com/user-attachments/assets/25fe7443-1955-4713-bb71-327711f1d4d3" />
+
 A full-stack shopping list application with user authentication, image uploads, and real-time price calculation.
 
 ## Features
@@ -80,3 +86,5 @@ http://localhost:5000/
    ```bash
    git clone https://github.com/ZukisaNxesi/shopping-list-app.git
    cd shopping-list-app
+
+
