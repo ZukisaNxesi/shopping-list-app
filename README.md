@@ -27,6 +27,10 @@ A full-stack shopping list application with user authentication, image uploads, 
 - Material-UI (MUI)
 - React Router v6
 - Axios for API calls
+## 🚀 Live Demo & Access Links
+
+### Frontend (React App)
+http://localhost:3000/
 
 ## Setup Instructions
 
@@ -35,6 +39,8 @@ A full-stack shopping list application with user authentication, image uploads, 
 2. Install dependencies: `npm install`
 3. Create `.env` file with your credentials
 4. Run: `npm start`
+### Backend API
+http://localhost:5000/
 
 ### Frontend Setup
 1. Navigate to frontend folder: `cd frontend`
@@ -45,3 +51,32 @@ A full-stack shopping list application with user authentication, image uploads, 
 ## Environment Variables
 
 ### Backend (.env)
+
+
+### API Endpoints
+- Test API: `http://localhost:5000/api/test`
+- Auth Login: `http://localhost:5000/api/auth/login` (POST)
+- Auth Register: `http://localhost:5000/api/auth/register` (POST)
+- Get All Lists: `http://localhost:5000/api/lists` (GET)
+
+### Supabase Project
+- **Project URL**: `https://pkrezmxqxkwfsevqefki.supabase.co`
+- **Project Reference**: `pkrezmxqxkwfsevqefki`
+
+### Cloudinary Dashboard
+- **Cloud Name**: `dydb4jccz`
+- **Dashboard**: [https://cloudinary.com/console](https://cloudinary.com/console)
+
+## 🛠️ Running the App Locally
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+- Git
+
+### Quick Start
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/ZukisaNxesi/shopping-list-app.git
+   cd shopping-list-app
