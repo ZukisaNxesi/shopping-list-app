@@ -6,13 +6,13 @@ const cors = require('cors');
 const authRoutes = require('./routes/auth');
 const listRoutes = require('./routes/lists');
 
-console.log('🚀 Starting server...');
+console.log(' Starting server...');
 console.log('Environment check:');
 console.log('- PORT:', process.env.PORT || 'default 5000');
-console.log('- SUPABASE_URL:', process.env.SUPABASE_URL ? '✅ Set' : '❌ Missing');
-console.log('- SUPABASE_KEY:', process.env.SUPABASE_SERVICE_ROLE_KEY ? '✅ Set' : '❌ Missing');
-console.log('- JWT_SECRET:', process.env.JWT_SECRET ? '✅ Set' : '❌ Missing');
-console.log('- CLOUDINARY:', process.env.CLOUDINARY_CLOUD_NAME ? '✅ Set' : '❌ Missing');
+console.log('- SUPABASE_URL:', process.env.SUPABASE_URL ? ' Set' : ' Missing');
+console.log('- SUPABASE_KEY:', process.env.SUPABASE_SERVICE_ROLE_KEY ? ' Set' : ' Missing');
+console.log('- JWT_SECRET:', process.env.JWT_SECRET ? ' Set' : ' Missing');
+console.log('- CLOUDINARY:', process.env.CLOUDINARY_CLOUD_NAME ? ' Set' : ' Missing');
 
 const app = express();
 
@@ -31,6 +31,6 @@ app.get('/api/test', (req, res) => {
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`✅ Server running on http://localhost:${PORT}`);
-  console.log(`📝 Test the API at http://localhost:${PORT}/api/test`);
+  console.log(` Server running on http://localhost:${PORT}`);
+  console.log(` Test the API at http://localhost:${PORT}/api/test`);
 });
